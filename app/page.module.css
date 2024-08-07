@@ -1,0 +1,53 @@
+.main {
+  padding: 6rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 2rem;
+  }
+}
+
+.link {
+  color: #666;
+  text-decoration: none;
+  border-bottom: 0.001px solid #666;
+  padding-bottom: 0px;
+  transition: opacity 0.2s ease;
+}
+
+.link:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.label_left {
+  color: #666;
+}
+
+.divider {
+  flex-grow: 1;
+  border-style: dotted;
+  border-color: rgb(212 212 212 / 1);
+  box-sizing: border-box;
+}
+
+@media (max-width: 390px) {
+  .link {
+    font-size: 0.875rem;
+  }
+
+  .label_left {
+    font-size: 0.875rem;
+  }
+
+  .label_right {
+    font-size: 0.875rem;
+  }
+}
